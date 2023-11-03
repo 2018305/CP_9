@@ -1,0 +1,10 @@
+How_tree = int(input("크리스마스 트리의 높이를 설정하세요."))
+
+for i in range(How_tree):
+    for j in range(How_tree - i - 1):
+        print(" ", end="")
+
+    for k in range(2 * i + 1):
+     print("*", end="")
+
+    print()
